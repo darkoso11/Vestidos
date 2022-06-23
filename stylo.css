@@ -20,9 +20,9 @@ p {
   font-family: Comfortaa, Arial, Helvetica, sans-serif;
 }
 
-hr {
-  z-index: -1;
-}
+/* hr {
+  z-index: -2;
+} */
 
   /* Menu */
 .header {
@@ -32,6 +32,7 @@ hr {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: +2;
 }
 
 .nav {
@@ -58,6 +59,8 @@ hr {
   display: flex;
   margin-right: 40px;
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .nav-menu-item {
